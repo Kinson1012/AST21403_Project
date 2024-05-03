@@ -1,0 +1,167 @@
+.profile-header {
+  margin-top: -1px;
+  font-size: 60px;
+  color: white;
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.profile-page {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-picture {
+  margin-top: 20px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile_img:hover{
+  opacity: 0;
+}
+
+.profile-picture label {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  color: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+
+.profile-picture span {
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  z-index: 2;
+}
+
+.profile-picture label span {
+  font-size: 16px;
+}
+
+
+.profile-picture:hover span {
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+}
+
+.profile-picture input[type='file'] {
+  display: none;
+}
+
+.profile-picture label:hover {
+  color: white;
+  background-color: #000000;
+}
+
+.profile-name{
+  margin-bottom: 0px;
+  height: 70px;
+  width: 280px;
+  padding-top: 10px;
+}
+
+.profile-info {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.profile-info h1 {
+  text-align: center;
+}
+
+.profile-info p {
+  text-align: left;
+  font-size: 18px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-data{
+  text-align: left;
+}
+
+.profile-buttons {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  text-decoration: none;
+}
+
+.settingLink{
+  text-decoration: none;
+}
+
+.setting
+{
+  border: none;
+  border-radius: 8px;
+  height: 80px;
+  width: 400px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.setting:hover{
+  background-color: black;
+  color: white;
+  border: solid white;
+}
+
+.Messagebtn{
+  border: none;
+  border-radius: 8px;
+  height: 80px;
+  width: 400px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.MessageLink{
+  text-decoration: none;
+}

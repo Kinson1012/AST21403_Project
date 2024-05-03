@@ -1,0 +1,56 @@
+.ResetPW-page{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.ResetPW-container{
+    max-width: 400px;
+    background-color: #fff;
+    padding: 54px 22px;
+    /* font-size: 22px; */
+    font-weight: 200;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.ResetPW-container2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ResetPW-header{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-submit-btn{
+    margin-top: 40px;
+}
+
+
+.ResetPW-link{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+
+}
+
+.ResetPW_password{
+    height: 40px;
+    width: 350px;
+}
+
+.ResetPW-text{
+    text-align: left;
+}

@@ -1,0 +1,20 @@
+.D_form_header h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}   
+
+.checkbox-text{
+    margin-top: 10px;
+    font-size: 14px;
+    position: relative;
+    /* right: 9%; */
+}
+
+.submit_Link{
+    pointer-events:fill;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}

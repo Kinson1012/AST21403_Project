@@ -1,0 +1,171 @@
+.bookcarpage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .Bookcar_header{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+  
+  #carButtons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+  }
+  
+  .car-button {
+    background-color: transparent;
+    color: white;
+    width: 250px;
+    height: 250px;
+    border: 2px solid gray;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+  .bookbtn-img{
+    width: 220px;
+    height: 150px;
+  }
+
+  .selected {
+    border-radius: 20px;
+    color: black;
+    border: 5px solid;
+    border-color: blue;
+    background-color: white;
+    transition: 0.37s;
+}
+
+  .bookcarbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .startandend{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  width: 100px;
+  }
+
+  .startandend p{
+    margin: 0;
+    color: white;
+    font-size: 18px;
+  }
+
+  .bookcar-container1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 22px;
+    width: 40%;
+  }
+
+  .boxforapi{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .bookcar-container1 input{
+    margin-bottom: 20px;
+    color: white;
+    height: 40px;
+    width: 60%;
+  }
+
+  .bookcar-container1 button{
+    width: 160px;
+    margin-top: 20px;
+    padding: 18px 28px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .price{
+    margin-top: 50px;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 12px 22px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 8px;
+  }
+
+  .bookcar-container1 input::placeholder{
+    padding-left: 10px;
+  }
+
+  .distance{
+    margin-top: 20px;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 12px 22px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 8px;
+  }
+
+  .Reset{
+    margin-left: 35px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .bookcarpage{
+      display: flex;
+      flex-direction: column-reverse;
+      text-align: center;
+      align-items: center;
+    }
+
+    .bookcarbtn{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .boxforapi{
+      width: 300px;
+      height: 350px;
+      padding-right: 20px;
+    }
+
+    .Reset{
+      margin: 0px;
+      margin-left: 10px;
+    }
+
+    .bookcar-container1 input {      
+      width: 320px;
+    }
+  }

@@ -1,0 +1,227 @@
+.videoTag{
+object-fit: cover;
+width: 100%;
+height: 800PX;
+z-index: 1;
+}
+
+.videoTag2{
+    width: 1000px;
+}
+
+.video-container {
+    position: relative;
+  }
+
+
+.sticky-text{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 35%;
+    color: white;
+    /* -webkit-text-stroke: 2px black; */
+    /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
+    font-family: 'Uber Move';
+}
+
+.sticky-text h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 120px;
+}
+
+.sticky-text h3{
+    font-size: 30px;
+}
+
+.sticky-button {
+    position: absolute;
+    padding: 20px 50px;
+    margin-top: 50px;
+    /* top: 70%; */
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    z-index: 1;
+    font-size: 20px;
+    border: solid;
+    background-color: transparent;
+    color: white;
+}
+
+.sticky-button:hover{
+    cursor: pointer;
+}
+
+.checkPrice{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 22px;
+}
+
+.Homeimgs2{
+    width: 720px;
+    height: 510px;
+    margin: 12px;
+}
+
+.box2-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+.box2-container2{
+    margin: 80px;
+}
+
+.box2-htext{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 44px;
+    color: white;
+}
+
+.box2-ptext{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.Homepage-box3{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.Homeimgs3{
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 720px;
+    height: 420px;
+}
+
+.box3-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 10px;
+}
+
+.box3-h{
+    text-align: center;
+}
+
+.box3-p{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.HomepageLink{
+    width: 120px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 18px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: solid white;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .videoTag{
+        object-fit: cover;
+        width: 100%;
+        height: 800PX;
+        z-index: 1;
+        }
+    
+    .videoTag2{
+        width: 800px;
+    }
+
+    .sticky-text{
+        position: absolute;
+        text-align: center;
+        top: 20%;
+        left: 20%;
+        color: white;
+        /* -webkit-text-stroke: 2px black; */
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        font-family: 'Uber Move';
+    }
+
+    .sticky-button {
+        position: absolute;
+        padding: 20px 40px;
+        /* top: 70%; */
+        /* left: 50%; */
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        z-index: 1;
+        font-size: 22px;
+        border: solid;
+        background-color: transparent;
+        color: white;
+    }
+
+    .box1-container{
+        margin-bottom: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .Homeimgs2{
+        width: 80%;
+    }
+
+    .box2-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Homeimgs3{
+        margin-left: 40px;
+        margin-top: 40px;
+        width: 80%;
+        height: 480px;
+    }
+
+    .Homepage-box3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box3-container{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .HomepageLink{
+    margin-left: 45%;
+    }
+}

@@ -1,0 +1,146 @@
+.App-payment body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+.App-payment h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 0 10px;
+  }
+  
+.App-payment h4 {
+    margin-bottom: 50px;
+    color: white;
+  }
+
+  
+  .App-payment {
+    padding: 30px;
+  }
+  
+  .App-payment  form {
+    margin: 30px auto 0;
+    max-width: 600px;
+  }
+  
+  .form-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .App-cards {
+    margin: 0 auto;
+    max-width: 1280px;
+    text-align: center;
+  }
+  
+  .App-cards-list {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .App-cards-list > * {
+    transform: scale(0.8);
+    margin-bottom: 30px !important;
+  }
+  
+  .App-highlight {
+    font-family: serif;
+    margin: 15px auto 0;
+    max-width: 300px;
+  }
+  
+  .App-highlight > div {
+    padding-left: 40px;
+  }
+  
+  .App-payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-control1{
+    padding: 1;
+    width: 290px;
+    height: 35px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form-control2{
+  padding: 1;
+  width: 290px;
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.form-control3{
+  padding: 1;
+  width: 290px;
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.form-control4{
+  padding: 1;
+  width: 290px;
+  height: 35px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.form-control1::placeholder{
+    padding-left: 10px;
+}
+
+.form-control2::placeholder{
+    padding-left: 10px;
+}
+
+.form-control3::placeholder{
+    padding-left: 10px;
+}
+
+.form-control4::placeholder{
+    padding-left: 10px;
+}
+
+.App-payment button{
+    display: flex;
+    background: linear-gradient(90deg, rgb(255, 119, 0), rgb(255, 73, 0));
+    color: whitesmoke;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 28px;
+}
+
+.App-payment form{
+  text-align: center;
+}
+  
+.price{
+ width: 290px;
+}
+
+  @media screen and (max-width: 960px) {
+    .App-payment h1 {
+      color: white;
+      font-size: 48px;
+      font-weight: bold;
+      margin: 0 0 10px;
+  }
+  }

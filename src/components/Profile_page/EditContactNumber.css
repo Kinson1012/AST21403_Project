@@ -1,0 +1,30 @@
+.head{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+}
+
+.EditContactLink{
+    color: white;
+    font-size: 30px;
+}
+
+.form-container{
+margin-top: 100px;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.C-form-text{
+    margin-bottom: 20px;
+}
+
+.TheLabel{
+    margin-left: 0px;
+    color: black;
+    text-align: left;
+}

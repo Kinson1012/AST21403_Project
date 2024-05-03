@@ -1,0 +1,141 @@
+body {
+  background: #212121;
+  color: rgb(0, 0, 0);
+  font-family: 'Uber Move';
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+.quando-regular{
+  font-size: large;
+}
+
+.form-container {
+  text-align: left;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.form-container input {
+  width: 95%;
+  padding: 9px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Login-link{
+  font-size: 17px;
+}
+
+.submit-container {
+  justify-content: center;
+  margin: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+/* Updated button styling */
+.submit {
+  position: relative;
+  padding: 20px 48px;
+  background-color: #000000;
+  font-size: 16px;
+  color: #fefefe;
+  font-weight: 500;
+  border: none;
+  border-radius: 9999px;
+  backdrop-filter: blur(4px);
+  box-shadow: inset 0px 1px 1px #67e8f9;
+  transition: all 0.3s ease-in-out, box-shadow 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.submit::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px 3px #67e8f97e;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.submit::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 2%);
+  width: 0;
+  height: 0;
+  background-image: linear-gradient(to right, 
+  rgba(15, 52, 67, 0),
+  rgba(15, 52, 67, 0.027),
+  rgb(52, 232, 158,  0.071),
+  rgb(52, 232, 158, 0.116),
+  rgba(52, 232, 157, 0.216),
+  rgba(74, 207, 152, 0.687),
+  rgba(52, 232, 157, 0.9),
+  rgb(45, 227, 215),
+  rgb(52, 232, 157, 0.9),
+  rgb(74, 207, 152, 0.687),
+  rgba(52, 232, 157, 0.216),
+  rgba(52, 232, 157, 0.116),
+  rgba(52, 232, 157, 0.071),
+  rgba(15, 52, 67, 0.027),
+  rgba(15, 52, 67, 0)
+   );
+  border-radius: 0 0 50% 50%;
+  opacity: 0.8;
+  filter: drop-shadow(0px 0px 30px #06b6d4);
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.submit:hover {
+  background: #000000ca;
+  color:white;
+  box-shadow: inset 0px 0px 0px #fefefe;
+}
+
+.submit:hover::before {
+  width: 30%;
+  height: 2px;
+}
+
+.submit:hover::after {
+  width: 100%;
+  height: 2px;
+}
+
+.checkboxTos{
+  display: flex;
+  flex-direction: row;
+}
+
+.Toscheckbox{
+  position: relative;
+  height: 22px;
+  top: 18px;
+  left: 10px;
+}
+
+.checkbox-text{
+  font-size: 10px;
+  width: 3000px;
+}
+
+.error-msg{
+  font-size: 15px;
+  color: red;
+}
+
+.submit_Link{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}

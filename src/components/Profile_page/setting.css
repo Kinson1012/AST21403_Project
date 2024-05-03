@@ -1,0 +1,61 @@
+.SettingPage{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.SettingLink{
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  position: fixed;
+}
+
+.SettingHeader{
+    color: white;
+    font-size: 80px;
+  padding-bottom: 20px;
+}
+
+.SettingButtons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 44px;
+}
+
+.SettingButtons button{
+    border: none;
+    border-radius: 8px;
+    height: 80px;
+    width: 400px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .SettingLinks{
+    text-decoration: none;
+  }
+
+.signOut {
+    color: red;
+  }
+  
+    .signOut:hover {
+    background-color: black;
+    color: red !important;
+  }
+  
+.SettingButtons button:hover {
+  background-color: black;
+  color: white;
+  border: solid white;
+}
+

@@ -1,0 +1,43 @@
+.BookingSuccessful{
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .BCheader{
+        margin-bottom: 50px;
+    }
+    
+    .tickimg{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        width: 120px;
+        height: 120px;
+    }
+    
+    .textgroupB{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+    }
+    
+    .textgroupB p{
+        font-size: 18px;
+        max-width: 540px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    .BookingSuccessful button{
+        margin: 30px;
+        width: 500px;
+        height: 80px;
+        padding: 18px 22px;
+        border-radius: 12px;
+        background-color: #CB382E;
+        color: white;
+        font-family: "Quando", serif;
+    }

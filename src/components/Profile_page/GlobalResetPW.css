@@ -1,0 +1,63 @@
+.Reset-link{
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+
+.Reset-header{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.Reset-text{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.Reset-code{
+    width: 100%;
+    height: 35px;
+}
+
+.Reset-container{
+    max-width: 400px;
+    background-color: #fff;
+    width: 700px;
+    height: 500px;
+    padding: 28px 22px;
+    font-weight: 200;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.Reset-PW{
+    width: 100%;
+    height: 35px;
+}
+
+.Reset-text{
+    text-align: left;
+}
+
+.Reset-group p{
+    font-size: 15px;
+}
+
+.Reset-page{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.alert-message{
+    color: red;
+}

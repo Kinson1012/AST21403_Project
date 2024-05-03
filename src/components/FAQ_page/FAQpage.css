@@ -1,0 +1,50 @@
+.FAQPage {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 22px;
+  color: #ccc;
+}
+
+.FAQHeader{
+  font-size: 80px;
+  text-align: center;
+  margin: 30px;
+}
+
+.FAQItem {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.FAQItem h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.FAQItem p {
+  display: none;
+}
+
+.FAQItem.expanded p {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  padding-right: 55px;
+}
+
+.FAQbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FAQbox svg {
+  margin-right: 10px;
+}

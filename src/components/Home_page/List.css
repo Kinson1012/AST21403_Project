@@ -1,0 +1,62 @@
+.Listpage body{
+    background-color: rgb(48, 48, 48);
+}
+
+
+.Listpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderheader{
+    margin-top: 50px;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 80px;
+}
+
+.orderlane{
+    background-color: rgb(92, 92, 92);
+    padding: 22px 18px;
+    border-radius: 12px;
+    width: 450px;
+    min-height: 550px;
+}
+
+.orderlistgroup{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.orderlistgroup h3{
+    font-size: 22px;
+}
+
+.orderlist1{
+    width: 410px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: white solid 2px;
+    height: 150px;
+}
+
+.orderlist1info{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.orderlist1 button{
+    width: 120px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
